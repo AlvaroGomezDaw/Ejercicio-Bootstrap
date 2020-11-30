@@ -12,29 +12,34 @@
     
 <div class="container">
 
-    <div class="row bg-light">
+    <div class="row bg-dark text-white">
         <div class="col-7 h2 pt-4 pb-4">
             Pagina Ejercicio Git hub
         </div>
         
         <div class="col-5  pb-4"><!--Menu Inicio pagina-->
-            <nav class="navbar navbar-expand-lg navbar-light  ">
+            <nav class="navbar navbar-expand-lg navbar-dark  ">
                 <a class="navbar-brand"  href="#">Menu</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                    <a class="nav-link " href="#">Inicio <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    
+                    <a class="nav-link " href="#">Inicio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link dropdown dropdown-toggle" id="MenuPosicion" data-toggle="dropdown"  href="#">Posición Pagina</a>
+                        <div class="dropdown-menu bg-secondary" aria-labelledby="MenuPosicion">
+                            <a class="dropdown-item" href="#">Inicio Pagina</a>
+                            <a class="dropdown-item" href="#">Mitad Pagina</a>
+                            <a class="dropdown-item" href="#">Final Pagina</a>
+                        </div>
+                    <a class="nav-link" href="#">Otros</a>
                   </div>
                 </div>
               </nav>
         </div><!--Final menu Inicio Pagina-->
         
     </div>
+
     
 </div>
 
