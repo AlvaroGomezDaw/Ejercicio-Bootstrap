@@ -28,7 +28,7 @@
                     <a class="nav-link " href="#">Inicio<span class="sr-only">(current)</span></a>
                     <a class="nav-link dropdown dropdown-toggle" id="MenuPosicion" data-toggle="dropdown"  href="#">Posición Pagina</a>
                         <div class="dropdown-menu bg-secondary" aria-labelledby="MenuPosicion">
-                            <a class="dropdown-item" href="#">Inicio Pagina</a>
+                            <a class="dropdown-item" href="#AniFotos">Fotos Animales</a>
                             <a class="dropdown-item" href="#">Mitad Pagina</a>
                             <a class="dropdown-item" href="#">Final Pagina</a>
                         </div>
@@ -39,7 +39,163 @@
         </div><!--Final menu Inicio Pagina-->
         
     </div>
+    <div class="row" id ="AniFotos"><!--Inicio fotos de Animales-->
+        <div class="col-12 bg-secondary">
+            <ul class="nav nav-tabs bg-secondary"><!--Inicio elegir el animal-->
 
+                <li class="nav-item">
+                  <a class="nav-link text-dark active" data-toggle="tab" href="#menu1">Perros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" data-toggle="tab" href="#menu2">Gatos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" data-toggle="tab" href="#menu3">Conejos</a>
+                  
+                </li>
+              </ul><!--Final Elegir el animal-->
+
+              <div class="tab-content"> <!--Inicio Carrousel animales-->
+
+
+                <div class="tab-pane container active" id="menu1"><!--Carousel de perros-->
+                    <div id="Perros" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#Perros" data-slide-to="0" class="active"></li>
+                          <li data-target="#Perros" data-slide-to="1"></li>
+                          <li data-target="#Perros" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Perro1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Perro en el campo Sembrando ternura</h5>
+                              <p>Este perro siempra ternura y sonrie por que todo el mundo lo puede ver</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Perro2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Perritos Aviadores</h5>
+                              <p>Estos perros te llevaran volando al pais de los perros :D</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Perro3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Perros durmiendo</h5>
+                              <p>Te desean buenas noches y que duermas tan bien como ellos.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#Perros" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#Perros" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                </div><!--Final Carousel de perros-->
+
+
+                
+                <div class="tab-pane container fade" id="menu2">
+                    <div class="tab-pane container active" id="menu1"><!--Carousel de gatos-->
+                        <div id="Gatos" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#Perros" data-slide-to="0" class="active"></li>
+                              <li data-target="#Perros" data-slide-to="1"></li>
+                              <li data-target="#Perros" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="Gato1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Gato negro</h5>
+                                  <p>Dicen que dan mala suerte, pero tambien dan ganas de tener uno</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="Gato2.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Mirada</h5>
+                                  <p>Esa mirada de los gatos que te miran y parece que te ven el alma... que mal royo</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="Gato3.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Gato Cachorro</h5>
+                                  <p>Muy mono el gato metido en la caja.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#Gatos" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#Gatos" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                    </div><!--Final Carousel de gatos-->
+                </div>
+                
+                
+                <div class="tab-pane container fade" id="menu3">
+                    <div class="tab-pane container active" id="menu1"><!--Carousel de conejo-->
+                        <div id="conejo" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#Perros" data-slide-to="0" class="active"></li>
+                              <li data-target="#Perros" data-slide-to="1"></li>
+                              <li data-target="#Perros" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="Conejo1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Conejo Tambien en el campo</h5>
+                                  <p>Creemos que es amigo del primer perro pero nadie esta seguro</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="Conejo2.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Conejo en la cesta</h5>
+                                  <p>Conejo perfecto para llevarlo de picnic(Pero no te lo comas D:)</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="Conejo3.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Conejo Cachorro</h5>
+                                  <p>Muy mono el conejo hasta que te muerde los muebles.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#conejo" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#conejo" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                    </div><!--Final Carousel de conejo-->
+                </div>
+
+            
+            </div>
+                
+
+                
+              </div>
+        </div>
+    </div> <!--Final Fotos de animales-->
     
 </div>
 
