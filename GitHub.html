@@ -68,6 +68,35 @@
         animation-name: gatodesventajas;
         animation-duration: 2s;
       }
+
+      @keyframes conejo {
+        0%{top: -220px;}
+        100%{top: 0px;}
+      }
+
+      @keyframes conejoventajas {
+        0%{top: -220px;}
+        100%{top: 0px;}
+      }
+      @keyframes conejodesventajas {
+        0%{top: -220px;}
+        100%{top: 0px;}
+      }
+
+      .aniconejo{
+        animation-name: conejo;
+        animation-duration: 2s;
+      }
+      
+      .aniconejoventa{
+        animation-name: conejoventajas;
+        animation-duration: 2s;
+      }
+
+      .aniconejodesven{
+        animation-name: conejodesventajas;
+        animation-duration: 2s;
+      }
     </style>
 
 </head>
@@ -354,12 +383,12 @@
                 </div><!--ventajas/desventajas gatos-->
 
                 <div class="row pt-5 border-top pb-3"><!--ventajas/desventajas conejos-->
-                    <div class="col-12 h3 text-center">
+                    <div class="col-12 h3 text-center aniconejo">
                         Conejos
                     </div>
                 </div>
                 <div class="row text-center h5 pb-5">
-                    <div class="col-6 ">
+                    <div class="col-6 aniconejoventa">
                         Ventajas
                         <div class="row h6 pt-4">
                             <div class="col-12">
@@ -376,7 +405,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 h5">
+                    <div class="col-6 h5 aniconejodesven">
                         Desventajas
                         <div class="row h6 pt-4">
                             <div class="col-12">
