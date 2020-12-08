@@ -8,6 +8,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio Pagina Github</title>
+
+    <style>
+      @keyframes perros {
+        0%{bottom: -220px;}
+        100%{bottom: 0px;}
+      }
+      .aniperro{
+        animation-name: perros;
+        animation-duration: 2s;
+      }
+
+      @keyframes perroventajas {
+        0%{left: -220px;}
+        100%{left: 0px;}
+      }
+      @keyframes perrodesventajas {
+        0%{right: -220px;}
+        100%{right: 0px;}
+      }
+
+      .aniperroventa{
+        animation-name: perroventajas;
+        animation-duration: 2s;
+      }
+
+      .aniperrodesven{
+        animation-name: perrodesventajas;
+        animation-duration: 2s;
+      }
+    </style>
+
 </head>
 <body>
     
@@ -204,12 +235,12 @@
                 </div><!--Final Columna titulo-->
                 
                 <div class="row pt-5 border-top pb-3"><!--ventajas/desventajas perros-->
-                    <div class="col-12 h3 text-center">
+                    <div class="col-12 h3 text-center aniperro">
                         Perros
                     </div>
                 </div>
                 <div class="row text-center h5  pb-5">
-                    <div class="col-6 ">
+                    <div class="col-6 aniperroventa">
                         Ventajas
                         <div class="row h6 pt-4">
                             <div class="col-12">
@@ -226,7 +257,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 h5">
+                    <div class="col-6 h5 aniperrodesven">
                         Desventajas
                         <div class="row h6 pt-4">
                             <div class="col-12">
